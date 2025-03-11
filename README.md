@@ -33,6 +33,7 @@ The [model_1.csv](/SVCR/model_1.csv) file consists of two columns, true and pred
 * Repeat the metrics evaluation for the validation results from the [model_2.csv](/SVCR/model_2.csv) and [model_3.csv](/SVCR/model_3.csv) files.
 * Figure out the model with the lower error and recommend it.
 
+#### Expected Output:
 ```
 for model_1.csv
         MSE =112.09929
@@ -130,6 +131,7 @@ The [model_1.csv](/SVBR/model_1.csv) file consists of two columns, true and pred
 * Repeat the metrics evaluation for the validation results from the [model_2.csv](/SVBR/model_2.csv) and [model_3.csv](/SVBR/model_3.csv) files.
 * Figure out and report the model with better performance.
 
+#### Expected Output:
 ```
 for model_1.csv
         BCE =2.2763095
@@ -201,6 +203,7 @@ The [model.csv](/MCC/model.csv) file consists of six columns. The first is actua
 ### Task 3:
 * Update the Java program to calculate the CE and confusion matrix for all the data stored in the [model.csv](/MCC/model.csv) file.
 
+#### Expected Output:
 ```
 CE =1.0077125
 Confusion matrix
